@@ -27,6 +27,10 @@ nav ul {
   background-color: #eee8d5;
 }
 
+.dfn + strong {
+  color: #fff;
+}
+
 #contents {
   color: #93a1a1;
 }
@@ -43,12 +47,8 @@ nav ul {
   color: #93a1a1;
 }
 
-main > div {
+div + strong {
   background-color: #b58900;
-}
-
-.dfn + p {
-  color: #fff;
 }
 
 a {
@@ -66,3 +66,13 @@ ol li:first-child {
 ol li:last-child {
   color: #2aa198;
 }
+
+.types {
+  background-color: #657ba3;
+}
+
+.types li:nth-last-child(3) {
+  background-color: #d04b16;
+}
+
+/* Target every third li inside .types */
