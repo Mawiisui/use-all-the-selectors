@@ -1,0 +1,55 @@
+body {
+  background-color: #fdf6e3;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+footer {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  font-family: sans-serif;
+}
+
+.class {
+  text-transform: uppercase;
+}
+
+.wrapper {
+  background-color: #eee8d5;
+}
+
+#contents {
+  color: #93a1a1;
+}
+
+#faves {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
+  color: #93a1a1;
+}
+
+main > div {
+  background-color: #b58900;
+}
+
+.dfn + p {
+  color: #fff;
+}
+
+a {
+  background-color: #719e07;
+}
+
+:link {
+  background-color: #2694d8;
+}
