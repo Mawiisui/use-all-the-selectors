@@ -1,3 +1,8 @@
+html {
+  /* Everything in here will design the HTML element */
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fdf6e3;
 }
@@ -52,4 +57,12 @@ a {
 
 :link {
   background-color: #2694d8;
+}
+
+ol li:first-child {
+  color: #719e47;
+}
+
+ol li:last-child {
+  color: #2aa198;
 }
