@@ -76,3 +76,7 @@ ol li:last-child {
 }
 
 /* Target every third li inside .types */
+
+h2 ul li {
+  background-color: #586e75;
+}
